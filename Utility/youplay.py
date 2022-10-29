@@ -10,14 +10,8 @@ for video in p.videos:
     print(video.title)
     #video.title = re.sub("\.", "", video.title)
     st = video.streams.get_highest_resolution()
-    st.download(output_path='D:\Download\FulvioCorno\BHD-21_22')
+    st.download(output_path='E:\Download\FulvioCorno\BHD-21_22a')
     n += 1
 
-   # try:
-   #     st = video.streams.get_highest_resolution()
-   #     st.download(output_path = 'D:\Download\FulvioCorno\BHD-20_21')
-   # except:
-   #     continue
-   # n += 1
 
 
