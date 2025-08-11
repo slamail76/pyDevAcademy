@@ -20,7 +20,7 @@ for video in playlist.videos:
     print(video.title)
     video = YT(videos[i], use_oauth=True, allow_oauth_cache=True)
     stream = video.streams.get_by_itag(140)
-    st.download(output_path='E:\Download\Basedati')
+    st.download(output_path='/media/stefano/Storage/Scaricati/')
 
     if ((n % 2) == 0):
         time.sleep(5)

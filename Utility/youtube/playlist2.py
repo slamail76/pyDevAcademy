@@ -20,7 +20,7 @@ for video in playlist.videos:
     #video = YT(playlist.videos[n], use_oauth=True, allow_oauth_cache=True)
     #stream = video.streams.get_by_itag(140)
     st = video.streams.get_highest_resolution()
-    st.download(output_path='D:\Download\FISICA')
+    st.download(output_path='/media/stefano/Storage/Scaricati/')
 
     if ((n % 2) == 0):
         time.sleep(5)
