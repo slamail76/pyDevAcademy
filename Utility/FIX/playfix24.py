@@ -10,7 +10,7 @@ def video_audio_mux(audiosource, videosource, out):
     subprocess.run(f"ffmpeg -i {audiosource} -i {videosource} -c {codec} {out}")
 
 url = "https://www.youtube.com/watch?v=4OUUK1VgeQU&list=PLFMns86uumjjX0zHm2hzKi_Yr18YzV5qr"
-path = "D:\Download\Musica\ickelback\\"
+path = "D:\Download\Musica\\"
 
 pl = Playlist(url)
 

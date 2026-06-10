@@ -10,7 +10,7 @@ def video_audio_mux(audiosource, videosource, out):
     codec = "copy"
     subprocess.run(f"ffmpeg -i {audiosource} -i {videosource} -c {codec} {out}")
 
-url = "https://www.youtube.com/watch?v=C1mlBijIYWk&list=PLbUoro2CIdD2JMRJnnplItRL6VVjfSIg8&index=1"
+url = "https://www.youtube.com/watch?v=5EhGDTaQk0c&list=PLhDjeN9A8LwKg1iWkPKzgeVvhj2sA0cwx&index=1"
 yt = YouTube(url, on_progress_callback=on_progress)
 
 n = 1
